@@ -1,6 +1,9 @@
-streamlit
+ollama
 langchain
 langchain-chroma
 langchain-community
+langchain-core
+langchain-text-splitters
+chromadb
 pysqlite3-binary
-ollama
+streamlit
