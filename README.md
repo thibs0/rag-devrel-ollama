@@ -1,4 +1,4 @@
-# rag-devrel-ollama
+# Simple local devrel expert RAG AI chatbot (using ollama & mistral AI)
  
 ## Install
 
