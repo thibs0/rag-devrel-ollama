@@ -12,7 +12,7 @@ ollama pull nomic-embed-text
 ollama pull mistral
 ```
 
-- Install Python 3
+- Install Python 3 (depends on your system)
 - Install Python packages from `requirements.txt`:
 
 ```bash
