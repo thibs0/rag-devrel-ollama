@@ -1,6 +1,6 @@
 # Simple local devrel expert RAG AI chatbot (using ollama & mistral AI)
  
-## Installation
+## Install
 
 - Install Ollama from [ollama.com](https://ollama.com)
 - Download mistral AI & nomic text embedding for Ollama:
@@ -17,9 +17,9 @@ ollama pull mistral
 pip install -r requirements.txt
 ```
 
-## Launch Streamlit web interface
+## Run
 
-- Launch the Streamlit app:
+- Launch the Streamlit web app:
 ```bash
 streamlit run streamlit_app.py
 ```
