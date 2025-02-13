@@ -1,22 +1,38 @@
 # rag-devrel-ollama
  
-## Requirements
+## Install
+
+- Install Ollama from [ollama.com](https://ollama.com)
+- Download mistral AI & nomic text embedding for Ollama:
+
+```bash
+ollama pull nomic-embed-text
+```
+```bash
+ollama pull mistral
+```
 
 - Install Python 3
-- Install Ollama
-- Install Python packages from _requirements.txt_:
+- Install Python packages from `requirements.txt`:
 
-`pip install -r requirements.txt`
+```bash
+pip install -r requirements.txt
+```
 
 ## Populate the database (embedding)
 
-- Add PDF files into _/data_ folder
-- Run _populate_database.py_ each time a new file is added or updated:
+- Add PDF files into `/data` folder
+- Run `populate_database.py` each time a new file is added or updated:
 
-`python3 populate_database.py`
+```bash
+python3 populate_database.py
+```
 
 ## Launch Streamlit web interface
 
 - Launch Streamlit app:
 
-`streamlit run streamlit_app.py`
+```bash
+streamlit run streamlit_app.py
+```
+
