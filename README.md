@@ -1,4 +1,4 @@
-# Simple local RAG AI - Developer Relations - Talk to the Book
+# Chat with the book "Developer Relations" `RAG` `ollama`
 
 This Retrieval Augmented Generation (RAG) AI embeds the excellent book [Developer Relations](https://www.amazon.com/Developer-Relations-Build-Successful-Program/dp/1484271637/ref=sr_1_2) from my colleagues Caroline Lewko and James Parton at [DevRel.Agency](https://devrel.agency). It runs locally on your own computer.
 
