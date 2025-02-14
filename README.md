@@ -41,6 +41,9 @@ streamlit run streamlit_app.py
 
 Enjoy!
 
+## Licence
+This project is open-source and provided under [MIT License](LICENSE)
+
 ---
 
 ## Work with your own PDF files
