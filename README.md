@@ -1,5 +1,16 @@
-# Simple local devrel expert RAG AI chatbot (using ollama & mistral AI)
- 
+# Simple local RAG AI - Developer Relations - Talk to the Book
+
+This Retrieval Augmented Generation (RAG) AI embeds the excellent book [Developer Relations](https://www.amazon.com/Developer-Relations-Build-Successful-Program/dp/1484271637/ref=sr_1_2) from my colleagues Caroline Lewko and James Parton at [DevRel.Agency](https://devrel.agency). It runs locally on your own computer.
+
+This project is for you if:
+* You want to talk to the book itself. It's fun, free, and fast to seek information from -- and a good complement to the paper version of the book too.
+* You want to learn how to code a very simple local RAG AI project in python using ollama, based on PDF files. Instructions are given at the end to wipe out the database and embed your own PDF files instead.
+* You'd like to contribute with more DevRel content (PDF or other formats) for this DevRel RAG AI (reach out to me!)
+
+Dependencies: `ollama` `mistral` `langchain` `chromadb` `streamlit`
+
+For any question, reach out to _thibs(at)devrel.agency_ or _thibault(at)cantegrel.com_
+
 ## Install
 
 - Install Ollama from [ollama.com](https://ollama.com)
@@ -41,3 +52,5 @@ python3 populate_database.py --reset
 python3 populate_database.py
 ```
 
+## Work with other types of content
+Coming soon...
