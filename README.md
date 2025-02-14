@@ -34,12 +34,23 @@ pip install -r requirements.txt
 
 ## Run
 
+- Launch Ollama application or use the command:
+```bash
+ollama serve &
+```
+
 - Launch the Streamlit web app:
 ```bash
 streamlit run streamlit_app.py
 ```
-
 Enjoy!
+
+<picture>
+ <source media="(prefers-color-scheme: dark)" srcset="/screenshot.png">
+ <source media="(prefers-color-scheme: light)" srcset="/screenshot.png">
+ <img alt="chatbot screenshot" src="/screenshot.png" width="800"/>
+</picture>
+
 
 ## Licence
 This project is open-source and provided under [MIT License](LICENSE)
