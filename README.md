@@ -7,7 +7,7 @@ This project is for you if:
 * You want to learn how to code a very simple local RAG AI project in python using ollama, based on PDF files. Instructions are given at the end to wipe out the database and embed your own PDF files instead.
 * You'd like to contribute, for example with more DevRel content (PDF or other formats) for this DevRel RAG AI, or with other embeddings methods or other AIs, etc. (reach out to me!)
 
-Dependencies: `ollama` `mistral` `langchain` `chromadb` `streamlit`
+Dependencies: `ollama` `nomic-embed-text` `mistral` `langchain` `chromadb` `streamlit`
 
 For any question, reach out to _thibs(at)devrel.agency_ or _thibault(at)cantegrel.com_
 
