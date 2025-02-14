@@ -13,12 +13,16 @@ For any question, reach out to _thibs(at)devrel.agency_ or _thibault(at)cantegre
 
 ## Install
 
+- Clone this repository -- from github interface or type in:
+```bash
+git clone https://github.com/thibs0/rag-devrel-ollama.git
+cd rag-devrel-ollama
+```
+
 - Install Ollama from [ollama.com](https://ollama.com)
 - Download mistral AI & nomic text embedding for Ollama:
 ```bash
 ollama pull nomic-embed-text
-```
-```bash
 ollama pull mistral
 ```
 
