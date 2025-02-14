@@ -2,10 +2,10 @@
 
 This Retrieval Augmented Generation (RAG) AI embeds the excellent book [Developer Relations](https://www.amazon.com/Developer-Relations-Build-Successful-Program/dp/1484271637/ref=sr_1_2) from my colleagues Caroline Lewko and James Parton at [DevRel.Agency](https://devrel.agency). It runs locally on your own computer.
 
-This project is for you if:
-* You want to talk to the book itself. It's fun, free, and fast to seek information from -- and a good complement to the paper version of the book too.
-* You want to learn how to code a very simple local RAG AI project in python using ollama, based on PDF files. Instructions are given at the end to wipe out the database and embed your own PDF files instead.
-* You'd like to contribute, for example with more DevRel content (PDF or other formats) for this DevRel RAG AI, or with other embeddings methods or other AIs, etc. (reach out to me!)
+This project is for you whether:
+* you want to talk to the book itself. It's fun, free, and fast to seek information from -- and a good complement to the paper version of the book too;
+* you want to learn how to code a very simple local RAG AI project in python using ollama, based on PDF files. Instructions are given at the end to wipe out the database and embed your own PDF files instead;
+* you'd like to contribute, for example with more DevRel content (PDF or other formats), or with other embeddings methods or other LLM, etc. (reach out to me!).
 
 Dependencies: `ollama` `nomic-embed-text` `mistral` `langchain` `chromadb` `streamlit`
 
@@ -48,12 +48,12 @@ Enjoy!
 <picture>
  <source media="(prefers-color-scheme: dark)" srcset="/screenshot.png">
  <source media="(prefers-color-scheme: light)" srcset="/screenshot.png">
- <img alt="chatbot screenshot" src="/screenshot.png" width="800"/>
+ <img alt="screenshot" src="/screenshot.png" width="800"/>
 </picture>
 
 
-## Licence
-This project is open-source and provided under [MIT License](LICENSE)
+## License
+This is an open-source project provided under the [MIT License](LICENSE)
 
 ---
 
