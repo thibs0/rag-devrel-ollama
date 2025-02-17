@@ -16,7 +16,7 @@ For any question, reach out to _thibs(at)devrel.agency_ or _thibault(at)cantegre
 This project requires the following software to be installed on your machine first (Windows, Mac, Linux):
 
 - [Ollama](https://ollama.com)
-- [Python 3](https://www.python.org/downloads/)
+- [Python 3.12.9](https://www.python.org/downloads/release/python-3129/) (tested with former 3.x versions up to 3.12.9)
 - C++ compilation toolchain:
   - on Windows, [install C++ build tools](https://github.com/bycloudai/InstallVSBuildToolsWindows)
   - on MacOS, execute in a terminal:
