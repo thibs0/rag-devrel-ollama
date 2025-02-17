@@ -3,7 +3,7 @@
 This Retrieval Augmented Generation (RAG) AI embeds the excellent book [Developer Relations](https://www.amazon.com/Developer-Relations-Build-Successful-Program/dp/1484271637/ref=sr_1_2) from my colleagues Caroline Lewko and James Parton at [DevRel.Agency](https://devrel.agency). It runs locally on your own computer.
 
 This project is for you whether:
-* you want to talk to the book itself. It's fun, free, and fast to seek information from -- and a good complement to the paper version of the book too;
+* you want to talk to the book itself. It's fun, free, and fast to seek information -- and a good complement to the paper version of the book too;
 * you want to learn how to code a very simple local RAG AI project in python using ollama, based on PDF files. Instructions are given at the end to wipe out the database and embed your own PDF files instead;
 * you'd like to contribute, for example with more DevRel content (PDF or other formats), or with other embeddings methods or other LLM, etc. (reach out to me!).
 
@@ -11,23 +11,35 @@ Dependencies: `ollama` `nomic-embed-text` `mistral` `langchain` `chromadb` `stre
 
 For any question, reach out to _thibs(at)devrel.agency_ or _thibault(at)cantegrel.com_
 
-## Install
+## Requirements
 
-- Clone this repository -- from github interface or from the command line (on Windows, you may need to install [Git for Windows](https://gitforwindows.org)):
+This project requires the following software to be installed on your machine first (Windows, Mac, Linux):
+
+- [Ollama](https://ollama.com)
+- [Python 3](https://www.python.org/downloads/)
+- C++ compilation toolchain:
+  - on Windows, [install C++ build tools](https://github.com/bycloudai/InstallVSBuildToolsWindows)
+  - on MacOS, execute in a terminal:
+  ```bash
+  xcode-select --install
+  ```
+
+- [Git](https://git-scm.com/) or [Github Desktop](https://desktop.github.com/download/) (optional although recommended)
+ 
+# Install
+
+- Download Mistral AI & Nomic Text Embedding for Ollama:
+```bash
+ollama pull mistral
+ollama pull nomic-embed-text
+```
+
+- Clone this repository -- from GitHub interface or with Github desktop or with Git command line:
 ```bash
 git clone https://github.com/thibs0/rag-devrel-ollama.git
 cd rag-devrel-ollama
 ```
 
-- Install Ollama from [ollama.com](https://ollama.com)
-- Download mistral AI & nomic text embedding for Ollama:
-```bash
-ollama pull nomic-embed-text
-ollama pull mistral
-```
-
-- Install Python 3 (depends on your system)
-- On Windows, you may need to install [MS C++ Build Tools](https://visualstudio.microsoft.com/fr/visual-cpp-build-tools/) if you don't have any C++ compiler toolchain yet
 - Install Python packages from `requirements.txt`:
 ```bash
 pip install -r requirements.txt
