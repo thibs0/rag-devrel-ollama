@@ -27,7 +27,7 @@ ollama pull mistral
 ```
 
 - Install Python 3 (depends on your system)
-- On Windows, install [MS C++ Build Tools](https://visualstudio.microsoft.com/fr/visual-cpp-build-tools/)
+- On Windows, you may need to install [MS C++ Build Tools](https://visualstudio.microsoft.com/fr/visual-cpp-build-tools/) if you don't have any C++ compiler toolchain yet
 - Install Python packages from `requirements.txt`:
 ```bash
 pip install -r requirements.txt
