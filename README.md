@@ -64,12 +64,6 @@ Enjoy!
  <img alt="screenshot" src="/screenshot.png" width="800"/>
 </picture>
 
-
-## License
-This is an open-source project provided under the [MIT License](LICENSE)
-
----
-
 ## Work with your own PDF files
 
 - Reset the dadabase
@@ -85,3 +79,16 @@ python3 populate_database.py
 
 ## Work with other types of content
 Coming soon...
+
+## Dependencies
+
+This project has been tested on MacOS (AppleSilicon, integrated GPUs) & Windows 11 (x64, RTX GPUs) with the following versions:
+
+Python 3.12.9
+- ollama-0.4.7
+- langchain-0.3.18
+- chromadb-0.6.3
+- streamlit-1.42.0
+
+## License
+This is an open-source project provided under the [MIT License](LICENSE)
