@@ -13,7 +13,7 @@ For any question, reach out to _thibs(at)devrel.agency_ or _thibault(at)cantegre
 
 ## Install
 
-- Clone this repository -- from github interface or type in:
+- Clone this repository -- from github interface or from the command line (on Windows, you may need to install [Git for Windows](https://gitforwindows.org)):
 ```bash
 git clone https://github.com/thibs0/rag-devrel-ollama.git
 cd rag-devrel-ollama
@@ -27,6 +27,7 @@ ollama pull mistral
 ```
 
 - Install Python 3 (depends on your system)
+- On Windows, install [MS C++ Build Tools](https://visualstudio.microsoft.com/fr/visual-cpp-build-tools/)
 - Install Python packages from `requirements.txt`:
 ```bash
 pip install -r requirements.txt
